@@ -1,6 +1,13 @@
 
 #title{
-    color:rgb(231, 231, 231);
+    background: linear-gradient(
+        to right, 
+        hsl(98 100% 62%), 
+        hsl(204 100% 59%)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
     grid-column-start: line3;
     grid-column-end: line4;
     text-align: center;
@@ -94,6 +101,7 @@ h2{
 
 body{
     background-color: #7D7C84;
+    font-family: "Dank Mono", ui-monospace, monospace;
 }
 
 #blankcontainer{
