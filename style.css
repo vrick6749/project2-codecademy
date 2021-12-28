@@ -46,7 +46,7 @@ p{
 
     grid-template-columns: [articleline6]1fr[articleline7]1fr[articleline8]1fr [articleline9]1fr [articleline10];
     grid-template-rows: [articlerow4] 1fr [articlerow5] 1fr [articlerow6] 1fr [articlerowline7];
-    align-items: center;
+    
 }
 
 
