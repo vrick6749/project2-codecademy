@@ -2,6 +2,53 @@
     background-color: #2D93AD;
 }
 
+
+#title{
+    color:rgb(231, 231, 231);
+    grid-column-start: line3;
+    grid-column-end: line4;
+    text-align: center;
+
+}
+
+p{
+    
+}
+
+
+/*This more like a global body grid settings, should barely touch this, unless you want to put content on the side*/
+.container{
+    background-color: rgb(192, 153, 153);
+
+    display: grid;
+
+    grid-template-columns: [line1] 40px [line2] 50px [line3] auto [line4] 50px [line5] 40px [endline];
+    grid-template-rows: [line1r] 1fr [line2r] auto [line3r] 4fr [last-line];
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*This is for the article block level to fix alignments and grid spanning refer to below settings*/
+
+.blockofarticles{
+    display: grid;
+    background-color: darkblue;
+    grid-column-start: line3;
+    grid-column-end: line4;
+    grid-row-start: line2r;
+    grid-row-end: line3r;
+
+
+    grid-template-columns: [articleline6]1fr[articleline7]1fr[articleline8];
+    grid-template-rows: [articlerow4] 1fr [articlerow5] 1fr [articlerow6] 1fr [articlerowline7];
+}
+
+
+
+
+article{
+    border-radius: 5px;
+}
+
 #css{
     background-color: #DE8F6E;
 }
@@ -12,34 +59,4 @@
 
 body{
     background-color: #7D7C84;
-}
-
-article{
-    border-radius: 5px;
-}
-
-#title{
-    color:rgb(231, 231, 231);
-    grid-column-start: line3;
-    grid-column-end: line4;
-    text-align: center;
-
-}
-
-.container{
-    background-color: rgb(192, 153, 153);
-
-    display: grid;
-
-    grid-template-columns: [line1] 40px [line2] 50px [line3] auto [line4] 50px [line5] 40px [endline];
-    grid-template-rows: [line1r] 1fr [line2r] auto [line3r] 4fr [last-line];
-}
-
-.blockofarticles{
-    display: grid in;
-    background-color: darkblue;
-    grid-column-start: line3;
-    grid-column-end: line4;
-    grid-row-start: line2r;
-    grid-row-end: line3r;
 }
