@@ -8,13 +8,13 @@
 }
 
 p{
-    
+    color: #BEA57D;
 }
 
 
 /*This more like a global body grid settings, should barely touch this, unless you want to put content on the side*/
 .container{
-    background-image: url('images/background-unsplash.jpg');
+    background-image: url('images/backdrop2-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
@@ -45,13 +45,14 @@ p{
 
 article{
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 
 /* removed colors from article ids to test out image and opacity just uncomment to return back to normal */
 #html{
     /* background-color: #2D93AD; */
-    opacity: .3;
+    background-color: rgba(190, 165, 125, .6);
     grid-column-start: articleline6;
     grid-column-end: articleline7;
 
@@ -61,6 +62,7 @@ article{
 
 #css{
     /* background-color: #DE8F6E; */
+    background-color: rgba(165, 36, 34, .6);
     grid-column-start: articleline6;
     grid-column-end: articleline7;
 
@@ -68,6 +70,7 @@ article{
 
 #javascript{
     /* background-color: #DBD56E; */
+    background-color: rgba(164,186,183, .6);
     grid-column-start: articleline6;
     grid-column-end: articleline7;
 
