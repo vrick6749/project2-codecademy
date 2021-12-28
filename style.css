@@ -104,7 +104,22 @@ body{
     font-family: "Dank Mono", ui-monospace, monospace;
 }
 
-#blankcontainer{
+#htmlphotocontainer{
+    display: flex;
+    grid-column-start: articleline9;
+    grid-column-end: articleline10;
+    grid-row-start: articlerow4;
+    grid-row-end: articlerow5;
+    align-items: center;
+    justify-content: center;
+    
+}
+#photoofhtml{
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+#cssphotocontainer{
     display: flex;
     grid-column-start: articleline9;
     grid-column-end: articleline10;
@@ -115,6 +130,21 @@ body{
     
 }
 #photoofcss{
+    max-width: 400px; 
+    max-height: 400px;
+}
+
+#javascriptphotocontainer{
+    display: flex;
+    grid-column-start: articleline9;
+    grid-column-end: articleline10;
+    grid-row-start: articlerow6;
+    grid-row-end: articlerow7;
+    align-items: center;
+    justify-content: center;
+    
+}
+#photoofjavascript{
     max-width: 400px; 
     max-height: 400px;
 }
