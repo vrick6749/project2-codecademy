@@ -15,7 +15,8 @@ p{
 /*This more like a global body grid settings, should barely touch this, unless you want to put content on the side*/
 .container{
     background-image: url('images/background-unsplash.jpg');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
 
     grid-template-columns: [line1] 40px [line2] 50px [line3] auto [line4] 50px [line5] 40px [endline];
@@ -27,7 +28,8 @@ p{
 
 .blockofarticles{
     display: grid;
-    
+    /* background-color: darkgray;
+    opacity: .4; */
     grid-column-start: line3;
     grid-column-end: line4;
     grid-row-start: line2r;
@@ -48,7 +50,8 @@ article{
 
 /* removed colors from article ids to test out image and opacity just uncomment to return back to normal */
 #html{
-    /*background-color: #2D93AD;8*/    
+    /* background-color: #2D93AD; */
+    opacity: .3;
     grid-column-start: articleline6;
     grid-column-end: articleline7;
 
