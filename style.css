@@ -36,7 +36,7 @@ p{
     grid-row-end: line3r;
 
 
-    grid-template-columns: [articleline6]1fr[articleline7]1fr[articleline8];
+    grid-template-columns: [articleline6]1fr[articleline7]1fr[articleline8]1fr [articleline9]1fr [articleline10];
     grid-template-rows: [articlerow4] 1fr [articlerow5] 1fr [articlerow6] 1fr [articlerowline7];
 }
 
@@ -45,7 +45,13 @@ p{
 
 article{
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    
+}
+h2{
+
+    color: silver;
+
 }
 
 
@@ -54,7 +60,7 @@ article{
     /* background-color: #2D93AD; */
     background-color: rgba(190, 165, 125, .6);
     grid-column-start: articleline6;
-    grid-column-end: articleline7;
+    grid-column-end: articleline9;
 
 }
 
@@ -64,7 +70,7 @@ article{
     /* background-color: #DE8F6E; */
     background-color: rgba(165, 36, 34, .6);
     grid-column-start: articleline6;
-    grid-column-end: articleline7;
+    grid-column-end: articleline9;
 
 }
 
@@ -72,7 +78,7 @@ article{
     /* background-color: #DBD56E; */
     background-color: rgba(164,186,183, .6);
     grid-column-start: articleline6;
-    grid-column-end: articleline7;
+    grid-column-end: articleline9;
 
 }
 
